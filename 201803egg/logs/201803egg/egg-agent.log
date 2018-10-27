@@ -1,0 +1,4 @@
+2018-07-29 13:10:59,417 INFO 7504 [egg:logger] init all loggers with options: {"dir":"D:\\vipcode\\project\\201803egg\\logs\\201803egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"201803egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-07-29 13:10:59,666 INFO 7504 [egg:core] dump config after load, 9ms
+2018-07-29 13:10:59,790 INFO 7504 [egg-watcher:agent] watcher start success
+2018-07-29 13:10:59,877 INFO 7504 [egg:core] dump config after ready, 16ms

@@ -1,0 +1,13 @@
+import { createStore, applyMiddleware } from 'redux';
+import reducers from './reducers';
+import createSagaMiddleware from 'redux-saga';
+import logger from 'redux-logger';
+import rootSaga from './saga';
+import { routerMiddleware } from 'react-router-redux';
+import history from '../history';
+let router = routerMiddleware(history);
+let sagaMiddelware = createSagaMiddleware();
+let store = createStore(reducers, applyMiddleware(sagaMiddelware, router, logger));
+sagaMiddelware.run(rootSaga);
+window.store = store;
+export default store;

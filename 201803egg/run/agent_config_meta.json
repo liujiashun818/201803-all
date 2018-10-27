@@ -1,0 +1,267 @@
+{
+  "keys": "D:\\vipcode\\project\\201803egg\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\vipcode\\project\\201803egg\\config\\config.default.js",
+    "mapping": {
+      ".ejs": "D:\\vipcode\\project\\201803egg\\config\\config.default.js"
+    },
+    "root": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js",
+    "cache": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view@2.1.0@egg-view\\config\\config.default.js"
+  },
+  "middleware": "D:\\vipcode\\project\\201803egg\\config\\config.default.js",
+  "robot": {
+    "uas": "D:\\vipcode\\project\\201803egg\\config\\config.local.js"
+  },
+  "time": "D:\\vipcode\\project\\201803egg\\config\\config.default.js",
+  "session": {
+    "maxAge": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "useSession": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "headerName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "queryName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "value": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "value": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "value": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "policy": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-security@2.2.3@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-i18n@2.0.0@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-watcher@3.0.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-multipart@2.0.0@egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-development@2.3.1@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-development@2.3.1@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-development@2.3.1@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-development@2.3.1@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-development@2.3.1@egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js",
+      "file": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-schedule@3.3.0@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-logrotator@3.0.3@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dir": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "preload": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "buffer": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-static@2.1.1@egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "cache": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.local.js",
+    "debug": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js",
+    "strict": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg-view-ejs@2.0.0@egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "name": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "proxy": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "version": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "description": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "main": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "debug": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "test": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "author": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "license": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "egg-view-ejs": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "express": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "egg-mock": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "HOME": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "rundir": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "notFound": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "sitefile": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "middlewares": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "httpClient": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "encoding": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "formLimit": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "strict": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "depth": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "encoding": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "env": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "level": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "outputJSON": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "buffer": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "appLogName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "coreLogName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "agentLogName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "errorLogName": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "logging": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "port": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+      "hostname": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\vipcode\\project\\201803egg\\node_modules\\_egg@2.9.1@egg\\config\\config.default.js"
+}

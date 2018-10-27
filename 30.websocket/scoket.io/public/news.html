@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.css">
+    <style>
+        .user {
+            color: green;
+            cursor: pointer;
+        }
+    </style>
+    <title>聊天室</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">
+                        <div>
+                            <button class="btn btn-danger" onclick="join('red')">进入红房间</button>
+                            <button class="btn btn-danger" onclick="leave('red')">离开红房间</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-success" onclick="join('green')">进入绿房间</button>
+                            <button class="btn btn-success" onclick="leave('green')">进入绿房间</button>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary" onclick="getRoomInfo()">
+                                获取房间信息
+                            </button>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group" id="messages" onclick="clickUser(event)">
+
+                        </ul>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <input id="textMsg" type="text" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" onclick="send()" class="btn btn-primary">发言</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        let socket = io('/');
+        let textMsg = document.querySelector('#textMsg');
+        let messagesEle = document.querySelector('#messages');
+        socket.on('connect', function () {
+            console.log('客户端连接成功');
+        });
+        socket.on('message', function (messageObj) {
+            let li = document.createElement('li');
+            li.innerHTML = `<span class="user">${messageObj.username}</span>:${messageObj.content} <span class="text-right">${messageObj.createAt.toLocaleString()}</span>`;
+            li.className = 'list-group-item';
+            messagesEle.appendChild(li);
+        });
+
+        function send() {
+            let content = textMsg.value;
+            if (!content)
+                return alert('请输入聊天内容');
+            socket.send(content);
+        }
+        function join(name) {
+            //向后台服务器发送一个消息，join name是房间名
+            socket.emit('join2', name);
+        }
+        function leave(name) {
+            //向后台服务器发送一个消息，离开某个房间
+            socket.emit('leave3', name);
+        }
+        function getRoomInfo() {
+            socket.emit('getRoomInfo');
+        }
+        function clickUser(event) {
+            console.log('clickUser', event.target.className);
+            if (event.target.className == 'user') {
+                let username = event.target.innerHTML;
+                textMsg.value = `@${username} `;
+            }
+        }
+    </script>
+</body>
+
+</html>

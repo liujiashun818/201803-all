@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>聊天</title>
+</head>
+
+<body>
+    <button onclick="createRoom()">建房间</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        let socket = io('http://127.0.0.1:7001/', { query: { room: 'default' } });
+        socket.on('connect', function () {
+            console.log('连接egg.js服务器成功');
+
+        });
+        function createRoom() {
+            socket.emit('createRoom', 'green');
+        }
+        socket.on('roomCreated', function (message) {
+            console.log(message);
+        });
+        socket.on('message', function (message) {
+            console.log(message);
+        });
+    </script>
+</body>
+
+</html>
